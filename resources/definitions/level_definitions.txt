@@ -1,0 +1,57 @@
+
+# Level 1
+START_LEVEL
+level_name:Dungeoun
+ball_velocities:-60,500 -45,500 -30,500
+background:image(background_images/dungeon.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/dungeon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:100
+row_height:25
+num_blocks:12
+START_BLOCKS
+----aaaaaa--
+----bbbbbb--
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+START_LEVEL
+level_name:Piano
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/piano.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/piano_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:100
+num_blocks:12
+START_BLOCKS
+aaaaaa
+--
+------aaaaaa
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+START_LEVEL
+level_name:Magical
+ball_velocities:30,500 60,500
+background:image(background_images/magical.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/magical_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:50
+num_blocks:15
+START_BLOCKS
+---aaaaaa
+-----bbb--
+--aaa---aaa
+END_BLOCKS
+END_LEVEL

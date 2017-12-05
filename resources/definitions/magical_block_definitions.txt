@@ -1,0 +1,8 @@
+# default values for blocks
+default height:50 width:50 stroke:color(black)
+
+# block definitions
+bdef symbol:a hit_points:2 fill:image(block_images/magic1.jpg) fill-2:image(block_images/magic2.jpg)
+bdef symbol:b hit_points:2 fill:color(orange) fill-2:color(black)
+# spacers definitions
+sdef symbol:- width:50

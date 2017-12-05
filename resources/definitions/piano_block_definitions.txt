@@ -1,0 +1,7 @@
+# default definitions
+default width:100 height:100
+# block definitions
+bdef symbol:a hit_points:3 fill-3:color(black) fill-2:color(gray) fill-1:color(white)
+
+# spacers definitions
+sdef symbol:- width:30
